@@ -18,7 +18,6 @@ echo
 echo "  update    => get the latest features"
 echo "  netflix   => will launch netflix"
 echo
-echo "Enjoy :)"
  
 
 # general aliases

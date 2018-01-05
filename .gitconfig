@@ -1,0 +1,26 @@
+[user]
+	name = Erwan Alliaume
+	email = erwan.alliaume@gmail.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+    	ui = auto
+[help]
+        autocorrect = 10
+[rerere]
+	enabled = true
+[diff]
+	renamelimit = 0
+[alias]
+        st = status
+        co = checkout
+        cp = cherry-pick
+        who = shortlog -s -n -e --
+        lg = log --graph --pretty=format:'%Cred%h%Creset %C(yellow)[%an]%Creset %s %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
+        wip = !"git add -A; git ls-files --deleted -z | xargs -0 -I {} git rm {}; git commit -m \"wip\""
+        unwip = !"git log -n 1 | grep -q -c wip && git reset HEAD~1"
+        pr = !"git fetch;git wip;git rebase --stat origin/master;git unwip;git heads"
+[core]
+	autocrlf = false
