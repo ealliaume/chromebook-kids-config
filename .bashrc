@@ -18,7 +18,8 @@ echo
 echo "  update    => get the latest features"
 echo "  netflix   => will launch netflix"
 echo
-echo 
+echo "Enjoy :)"
+ 
 
 # general aliases
 alias ll="ls -la"
