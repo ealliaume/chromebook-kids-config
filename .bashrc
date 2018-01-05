@@ -1,5 +1,10 @@
 # I m using Termux android App on a Chromebook
 
+function addLog() {
+    CMD=$1 
+    echo `date` - $1 >> ~/.kids-tools
+}
+
 echo 
 echo "         Hello Bastien, what do you want to do today?"
 echo
@@ -13,6 +18,6 @@ echo
 alias ll="ls -la"
 
 # kids aliases
-alias update="git pull --rebase && source ~/.bashrc"
-alias netflix="termux-open-url https://www.netflix.com"
+alias update="git pull --rebase && source ~/.bashrc && addLog update"
+alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
 
