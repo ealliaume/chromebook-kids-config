@@ -7,16 +7,18 @@ function addLog() {
 
 echo 
 echo
-echo "     ******************** v0.2
-echo "     |    Hello Bastien!     |
-echo "     -------------------------"
+echo "      ******************** v0.2"
+echo "      |    Hello Bastien!     |"
+echo "      -------------------------"
+echo
 echo "    What do you want to do today?"
 echo
 echo "Commands availlable:"
 echo 
-echo "update  => ge the latest features"
-echo "netflix => will launch netflix"
+echo "  update    => get the latest features"
+echo "  netflix   => will launch netflix"
 echo
+echo 
 
 # general aliases
 alias ll="ls -la"
