@@ -6,7 +6,11 @@ function addLog() {
 }
 
 echo 
-echo "         Hello Bastien, what do you want to do today?"
+echo
+echo "     ******************** v0.2
+echo "     |    Hello Bastien!     |
+echo "     -------------------------"
+echo "    What do you want to do today?"
 echo
 echo "Commands availlable:"
 echo 
