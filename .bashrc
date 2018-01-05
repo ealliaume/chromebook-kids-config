@@ -22,6 +22,8 @@ echo
 
 # general aliases
 alias ll="ls -la"
+alias quit="killall com.termux"
+alias exit="killall com.termux"
 
 # kids aliases
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
