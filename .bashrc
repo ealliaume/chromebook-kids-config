@@ -29,3 +29,5 @@ alias exit="killall com.termux"
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
 alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
 
+alias qq="am start -a android.intent.action.MAIN -n com.android.browser/.BrowserActivity"
+
