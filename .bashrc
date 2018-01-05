@@ -13,5 +13,6 @@ echo
 alias ll="ls -la"
 
 # kids aliases
+alias update="git pull --rebase && source ~/.bashrc"
 alias netflix="termux-open-url https://www.netflix.com"
 
