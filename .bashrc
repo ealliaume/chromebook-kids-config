@@ -27,5 +27,6 @@ alias exit="killall com.termux"
 
 # kids aliases
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
+alias up=update
 alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
 
