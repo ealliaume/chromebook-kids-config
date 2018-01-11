@@ -7,7 +7,7 @@ function addLog() {
 
 echo 
 echo
-echo "      ******************** v0.2"
+echo "      ******************** v0.3"
 echo "      |    Hello Bastien!     |"
 echo "      -------------------------"
 echo
@@ -17,6 +17,7 @@ echo "Commands availlable:"
 echo 
 echo "  update    => get the latest features"
 echo "  netflix   => will launch netflix"
+echo "  photos    => open google photos"
 echo
  
 
@@ -29,4 +30,6 @@ alias exit="killall com.termux"
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
 alias up=update
 alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
+alias photos="termux-open-url https://photos.google.com && addLog photos"
+
 
