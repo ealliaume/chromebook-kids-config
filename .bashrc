@@ -21,7 +21,8 @@ echo "  netflix  📺   => will launch netflix"
 echo "  photos   📷   => open google photos"
 echo "  message  💬   => send a message to mum or dad"
 echo
- 
+echo "  maths    ➕   => maths game"
+echo 
 
 # general aliases
 alias ll="ls -la"
@@ -34,4 +35,6 @@ alias up=update
 alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
 alias photos="termux-open-url https://photos.google.com && addLog photos"
 alias message="termux-open-url https://hangouts.google.com && addLog message"
+alias maths="termux-open-url https://www.mathplayground.com/math_monster_addition.html && addLog maths"
+
 
