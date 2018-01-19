@@ -13,7 +13,7 @@ echo "      -------------------------"
 echo
 echo "    What do you want to do today?"
 echo
-echo "Commands availlable:"
+echo "Commands available:"
 echo 
 echo "  update       => get the latest features"
 echo "  netflix  📺   => will launch netflix"
