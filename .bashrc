@@ -15,9 +15,9 @@ echo "    What do you want to do today?"
 echo
 echo "Commands availlable:"
 echo 
-echo "  update    => get the latest features"
-echo "  netflix   => will launch netflix"
-echo "  photos    => open google photos"
+echo "  update       => get the latest features"
+echo "  netflix  📺   => will launch netflix"
+echo "  photos   📷   => open google photos"
 echo
  
 
