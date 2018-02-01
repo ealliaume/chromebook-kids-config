@@ -1,4 +1,5 @@
 # I m using Termux android App on a Chromebook
+# emoji link: https://gist.github.com/endolith/157796
 
 function addLog() {
     CMD=$1 
@@ -23,12 +24,16 @@ echo "  message  💬   => send a message to mum or dad"
 echo
 echo "  maths    ➕   => maths game: additions"
 echo "  maths2   ➖   => maths game: substractions"
+echo "  writeIt  📖   => write random words"
 echo 
 
 # general aliases
 alias ll="ls -la"
 alias quit="killall com.termux"
 alias exit="killall com.termux"
+
+# challenges
+alias writeIt="./games/writeIt/writeIt.sh ./games/writeIt/words.txt && addLog writeIt"
 
 # kids aliases
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
