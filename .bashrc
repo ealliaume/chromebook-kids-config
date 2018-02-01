@@ -24,7 +24,8 @@ echo "  message  💬   => send a message to mum or dad"
 echo
 echo "  maths    ➕   => maths game: additions"
 echo "  maths2   ➖   => maths game: substractions"
-echo "  writeIt  📖   => write random words"
+echo "  writeIt  🔠   => write random words"
+echo "  solveIt  🔢   => solve maths expressions"
 echo 
 
 # general aliases
@@ -33,7 +34,8 @@ alias quit="killall com.termux"
 alias exit="killall com.termux"
 
 # challenges
-alias writeIt="./games/writeIt/writeIt.sh ./games/writeIt/words.txt && addLog writeIt"
+alias writeIt="addLog writeIt && ./games/writeIt/writeIt.sh ./games/writeIt/words.txt && addLog writeIt_done"
+alias solveIt="addLog solveIt && ./games/solveIt/solveIt.sh  && addLog solveIt_done"
 
 # kids aliases
 alias update="git pull --rebase && source ~/.bashrc && addLog update"
@@ -44,4 +46,5 @@ alias message="termux-open-url https://hangouts.google.com && addLog message"
 
 alias maths="termux-open-url https://www.mathplayground.com/math_monster_addition.html && addLog maths"
 alias maths2="termux-open-url https://www.mathplayground.com/puzzle_pics_subtraction_facts_to_20.html && addLog maths2"
+
 
