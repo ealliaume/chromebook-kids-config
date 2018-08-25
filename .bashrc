@@ -8,7 +8,7 @@ function addLog() {
 
 echo 
 echo
-echo "      ******************** v0.4"
+echo "      ******************** v0.5"
 echo "      |    Hello Bastien!     |"
 echo "      -------------------------"
 echo
