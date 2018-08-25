@@ -42,7 +42,7 @@ alias writeIt="addLog writeIt && ./games/writeIt/writeIt.sh ./games/writeIt/word
 alias solveIt="addLog solveIt && ./games/solveIt/solveIt.sh  && addLog solveIt_done"
 
 # kids aliases
-alias update="git pull --rebase && source ~/.bashrc && addLog update"
+alias update="git co master && git pull --rebase && source ~/.bashrc && addLog update"
 alias up=update
 alias netflix="termux-open-url https://www.netflix.com && addLog netflix"
 alias photos="termux-open-url https://photos.google.com && addLog photos"
