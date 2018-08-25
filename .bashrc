@@ -27,8 +27,7 @@ echo "  maths2   ➖   => maths game: substractions"
 echo "  writeIt  🔠   => write random words"
 echo "  solveIt  🔢   => solve maths expressions"
 echo
-echo "  eggs-bastien  👦   => reading eggs for Bastien"
-echo "  eggs-manon    👧   => reading eggs for Manon"
+echo "  reading-eggs  👦👧   => reading eggs"
 
 echo 
 
@@ -51,7 +50,6 @@ alias message="termux-open-url https://hangouts.google.com && addLog message"
 alias maths="termux-open-url https://www.mathplayground.com/math_monster_addition.html && addLog maths"
 alias maths2="termux-open-url https://www.mathplayground.com/puzzle_pics_subtraction_facts_to_20.html && addLog maths2"
 
-alias eggs-bastien="termux-open-url https://app.readingeggs.com/students/15274937/dashboard && addLog eggs-bastien"
-alias eggs-manon="termux-open-url https://app.readingeggs.com/students/11984296/dashboard && addLog eggs-bastien"
+alias reading-eggs="termux-open-url https://app.readingeggs.com/parent/dashboard && addLog reading-eggs"
 
 
