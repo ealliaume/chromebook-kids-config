@@ -35,6 +35,7 @@ echo
 alias ll="ls -la"
 alias quit="killall com.termux"
 alias exit="killall com.termux"
+alias edit="termux-open-url https://github.com/ealliaume/chromebook-kids-config/blob/master/.bashrc"
 
 # challenges
 alias writeIt="addLog writeIt && ./games/writeIt/writeIt.sh ./games/writeIt/words.txt && addLog writeIt_done"
