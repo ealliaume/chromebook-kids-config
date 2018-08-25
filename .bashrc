@@ -27,8 +27,8 @@ echo "  maths2   ➖   => maths game: substractions"
 echo "  writeIt  🔠   => write random words"
 echo "  solveIt  🔢   => solve maths expressions"
 echo
-echo "  eggs-bastien  🥚👦   => reading eggs for Bastien"
-echo "  eggs-manon    🥚👧   => reading eggs for Manon"
+echo "  eggs-bastien  👦   => reading eggs for Bastien"
+echo "  eggs-manon    👧   => reading eggs for Manon"
 
 echo 
 
